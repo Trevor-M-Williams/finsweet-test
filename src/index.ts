@@ -94,7 +94,7 @@ function main() {
 
   const numRows = 3;
   const rowLength = Math.ceil(clients.length / numRows);
-  const speed = 5;
+  const speed = 4;
   const animationDuration = 300 / speed;
 
   const section = document.querySelector('.section_clients');
@@ -118,7 +118,6 @@ function main() {
         row.style.animation = `slide-right ${animationDuration - i * 10}s linear infinite`;
         break;
       case 1:
-        row.style.border = 'none';
         row.style.animation = `slide-left ${animationDuration + i * 10}s linear infinite`;
         break;
     }
