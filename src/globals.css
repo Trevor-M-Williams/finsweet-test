@@ -30,6 +30,13 @@
   padding: 0 0.75rem;
 }
 
+@media screen and (max-width: 768px) {
+  .client-row {
+    gap: 2rem;
+    font-size: 2rem;
+  }
+}
+
 .client {
   flex-shrink: 0;
 }
