@@ -118,7 +118,7 @@ function main() {
         row.style.animation = `slide-right ${animationDuration - i * 10}s linear infinite`;
         break;
       case 1:
-        // row.style.transform = 'translateX(-100%)';
+        row.style.border = 'none';
         row.style.animation = `slide-left ${animationDuration + i * 10}s linear infinite`;
         break;
     }
