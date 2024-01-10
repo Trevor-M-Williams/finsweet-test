@@ -15,11 +15,10 @@ body {
 
 .row-container {
   display: flex;
-  width: 110%;
+  width: 100%;
   background: #ccc;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
-  transform: rotate(10deg) translateX(-5%);
 }
 
 .client-row {
